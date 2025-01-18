@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "rNAuPVbslKaD0DjJ8bUI0NdwJQZ9YuKIszqxxFx1RhUt7pgx37ICVQDOkS97nx2t1aXjnO9MbzJHAWx0mi1WbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\LoggingTE\\LoggingTE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chand\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512",
+    "C:\\Users\\chand\\.nuget\\packages\\microsoft.extensions.options\\9.0.1\\microsoft.extensions.options.9.0.1.nupkg.sha512",
+    "C:\\Users\\chand\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512",
+    "C:\\Users\\chand\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\chand\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\chand\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\chand\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\chand\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\chand\\.nuget\\packages\\system.threading.tasks.dataflow\\9.0.1\\system.threading.tasks.dataflow.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

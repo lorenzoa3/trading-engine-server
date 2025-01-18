@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = TradingEngineServer.Orders
+build_property.ProjectDir = C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,0 +1,10 @@
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\bin\Debug\netstandard2.1\TradingEngineServer.Logging.deps.json
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\bin\Debug\netstandard2.1\TradingEngineServer.Logging.dll
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\bin\Debug\netstandard2.1\TradingEngineServer.Logging.pdb
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\LoggingTE.csproj.AssemblyReference.cache
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\LoggingTE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\LoggingTE.AssemblyInfoInputs.cache
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\LoggingTE.AssemblyInfo.cs
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\LoggingTE.csproj.CoreCompileInputs.cache
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\TradingEngineServer.Logging.dll
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\TradingEngineServer.Logging.pdb
