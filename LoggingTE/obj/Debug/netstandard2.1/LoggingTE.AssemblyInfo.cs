@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TradingEngineServer.Logging")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e98adb8f2c5167c7aba98593836047e582be12d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TradingEngineServer.Logging")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TradingEngineServer.Logging")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
