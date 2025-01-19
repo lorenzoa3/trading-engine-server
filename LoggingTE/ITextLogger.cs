@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace TradingEngineServer.Logging
 {
+    // Represents a logger that writes text-based logs and supports IDisposable for cleanup
     public interface ITextLogger : ILogger, IDisposable
     {
     }

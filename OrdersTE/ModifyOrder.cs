@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace TradingEngineServer.Orders
 {
+    // Represents an order modification, with functionality to convert to other order types
     public class ModifyOrder : IOrderCore
     {
         public ModifyOrder(IOrderCore orderCore, long modifyPrice, uint modifyQuantity, bool isBuySide)
@@ -14,29 +13,35 @@ namespace TradingEngineServer.Orders
             IsBuySide = isBuySide;
 
             // FIELDS //
-            _orderCore = orderCore;
+            _orderCore = orderCore ?? throw new ArgumentNullException(nameof(orderCore));
         }
 
         // PROPERTIES //
-        public long Price { get; set; }
-        public uint Quantity { get; set; }
-        public bool IsBuySide { get; set; }
+        public long Price { get; set; } // Modified price of the order
+        public uint Quantity { get; set; } // Modified quantity of the order
+        public bool IsBuySide { get; set; } // Indicates if the order remains on the buy side
+
+        // Core order properties from IOrderCore
         public long OrderId => _orderCore.OrderId;
         public string Username => _orderCore.Username;
         public int SecurityId => _orderCore.SecurityId;
 
+
         // METHODS //
+        // Converts the ModifyOrder into a CancelOrder
         public CancelOrder ToCancelOrder()
         {
             return new CancelOrder(this);
         }
 
+        // Converts the ModifyOrder into a new Order
         public Order ToNewOrder()
         {
             return new Order(this);
         }
 
+
         // FIELDS //
-        IOrderCore _orderCore;
+        private readonly IOrderCore _orderCore; // Encapsulates the original core order
     }
 }

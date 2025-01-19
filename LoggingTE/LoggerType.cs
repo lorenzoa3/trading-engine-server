@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace TradingEngineServer.Logging
 {
+    // Specifies the type of logger to use
     public enum LoggerType
     {
         Text,
-        Database, // Not implemented
-        Trace,    // Not implemented
-        Console,  // Not implemented
+        Database, // Placeholder for future implementation
+        Trace,    // Placeholder for future implementation
+        Console,  // Placeholder for future implementation
     }
 }

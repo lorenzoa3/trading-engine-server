@@ -16,16 +16,16 @@ namespace TradingEngineServer.Core
         public static IHost BuildTradingEnginServer()
             => Host.CreateDefaultBuilder().ConfigureServices((context, services) =>
             {
-                // Start configuration
+                // Configure options from appsettings.json
                 services.AddOptions();
                 services.Configure<TradingEngineServerConfiguration>(context.Configuration.GetSection(nameof(TradingEngineServerConfiguration)));
                 services.Configure<LoggerConfiguration>(context.Configuration.GetSection(nameof(LoggerConfiguration)));
 
-                // Add singleton objects
+                // Add trading engine server and logging as singletons
                 services.AddSingleton<iTradingEngineServer, TradingEngineServer>();
                 services.AddSingleton<ITextLogger, TextLogger>();
 
-                // Add hosted service
+                // Register the TradingEngineServer as a hosted service
                 services.AddHostedService<TradingEngineServer>();
             }).Build();
     }

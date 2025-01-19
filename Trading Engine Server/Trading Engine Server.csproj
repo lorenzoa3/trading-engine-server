@@ -1,25 +1,37 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <!-- Define project-specific properties -->
   <PropertyGroup>
+    <!-- Specifies the type of application being built (Executable) -->
     <OutputType>Exe</OutputType>
+    <!-- Sets the target framework for the application (using .NET 8.0 here) -->
     <TargetFramework>net8.0</TargetFramework>
-	<LangVersion>10.0</LangVersion>
+    <!-- Sets the C# language version to 10.0; consider using 'latest' to always use the latest stable version -->
+    <LangVersion>10.0</LangVersion>
+    <!-- Defines the default namespace for the project -->
     <RootNamespace>TradingEngineServer.Core</RootNamespace>
-	<AssemblyName>TradingEngineServer.Core</AssemblyName>
+    <!-- Specifies the name of the assembly output -->
+    <AssemblyName>TradingEngineServer.Core</AssemblyName>
+    <!-- Enables implicit global using directives for common namespaces -->
     <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Enables nullable reference types for better null-safety -->
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
+    <!-- Adds a package for hosting and dependency injection functionality -->
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.1" />
+    <!-- Adds abstractions for hosting services -->
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <!-- Reference to another project in the solution for logging functionality -->
     <ProjectReference Include="..\LoggingTE\LoggingTE.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <!-- Ensures the appsettings.json configuration file is always copied to the output directory -->
     <None Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace TradingEngineServer.Core.Configuration
 {
+    // Configuration class for the server
     internal class TradingEngineServerConfiguration
     {
+        // Holds the server-specific settings, such as the port number
         public TradingEngineServerSettings TradingEngineServerSettings { get; set; }
     }
 
+    // Represents the settings for the trading engine server
     class TradingEngineServerSettings
     {
-        public int Port
-        {
-            get; set;
-        }
+        // Port number on which the server will listen
+        public int Port { get; set; }
     }
 }

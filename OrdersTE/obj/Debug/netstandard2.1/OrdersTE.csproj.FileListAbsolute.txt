@@ -1,0 +1,10 @@
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\bin\Debug\netstandard2.1\TradingEngineServer.Orders.deps.json
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\bin\Debug\netstandard2.1\TradingEngineServer.Orders.dll
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\bin\Debug\netstandard2.1\TradingEngineServer.Orders.pdb
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\obj\Debug\netstandard2.1\OrdersTE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\obj\Debug\netstandard2.1\OrdersTE.AssemblyInfoInputs.cache
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\obj\Debug\netstandard2.1\OrdersTE.AssemblyInfo.cs
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\obj\Debug\netstandard2.1\OrdersTE.csproj.CoreCompileInputs.cache
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\obj\Debug\netstandard2.1\OrdersTE.sourcelink.json
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\obj\Debug\netstandard2.1\TradingEngineServer.Orders.dll
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrdersTE\obj\Debug\netstandard2.1\TradingEngineServer.Orders.pdb

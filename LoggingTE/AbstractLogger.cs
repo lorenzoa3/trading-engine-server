@@ -4,6 +4,7 @@ using System.Text;
 
 namespace TradingEngineServer.Logging
 {
+    // Base abstraction for logging implementations
     public abstract class AbstractLogger : ILogger
     {
         protected AbstractLogger()

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace TradingEngineServer.Logging
 {
+    // Defines logging methods for different severity levels
     public interface ILogger
     {
         void Debug(string module, string message);
@@ -16,6 +17,6 @@ namespace TradingEngineServer.Logging
         void Warn(string module, string message);
         void Warn(string module, Exception exception);
         void Error(string module, string message);
-        void Error(string module, Exception exception);
+        void Error(string module, Exception exception); // Log critical application errors
     }
 }

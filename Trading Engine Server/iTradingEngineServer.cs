@@ -8,6 +8,7 @@ namespace TradingEngineServer.Core
 {
     internal interface iTradingEngineServer
     {
+        // Runs the trading engine server asynchronously.
         Task Run(CancellationToken token);
     }
 }

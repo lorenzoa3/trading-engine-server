@@ -1,0 +1,16 @@
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\bin\Debug\netstandard2.1\TradingEngineServer.Orderbook.deps.json
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\bin\Debug\netstandard2.1\TradingEngineServer.Orderbook.dll
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\bin\Debug\netstandard2.1\TradingEngineServer.Orderbook.pdb
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\bin\Debug\netstandard2.1\TradingEngineServer.Instrument.dll
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\bin\Debug\netstandard2.1\TradingEngineServer.Orders.dll
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\bin\Debug\netstandard2.1\TradingEngineServer.Instrument.pdb
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\bin\Debug\netstandard2.1\TradingEngineServer.Orders.pdb
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\obj\Debug\netstandard2.1\OrderbookTE.csproj.AssemblyReference.cache
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\obj\Debug\netstandard2.1\OrderbookTE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\obj\Debug\netstandard2.1\OrderbookTE.AssemblyInfoInputs.cache
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\obj\Debug\netstandard2.1\OrderbookTE.AssemblyInfo.cs
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\obj\Debug\netstandard2.1\OrderbookTE.csproj.CoreCompileInputs.cache
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\obj\Debug\netstandard2.1\OrderbookTE.sourcelink.json
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\obj\Debug\netstandard2.1\Orderboo.D54B2CD2.Up2Date
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\obj\Debug\netstandard2.1\TradingEngineServer.Orderbook.dll
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\OrderbookTE\obj\Debug\netstandard2.1\TradingEngineServer.Orderbook.pdb

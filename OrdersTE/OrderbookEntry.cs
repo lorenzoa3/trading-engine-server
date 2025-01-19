@@ -17,6 +17,7 @@ namespace TradingEngineServer.Orders
         public Order CurrentOrder { get; private set; } // Can use init here
         public Limit ParentLimit { get; private set; } // Can use init here
 
+        // Pointers for next entry and previous entry in Orderbook
         public OrderbookEntry Next { get; set; }
         public OrderbookEntry Previous { get; set; }
     }

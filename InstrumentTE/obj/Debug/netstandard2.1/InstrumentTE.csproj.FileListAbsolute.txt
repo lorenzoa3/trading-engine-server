@@ -1,0 +1,10 @@
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\InstrumentTE\bin\Debug\netstandard2.1\TradingEngineServer.Instrument.deps.json
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\InstrumentTE\bin\Debug\netstandard2.1\TradingEngineServer.Instrument.dll
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\InstrumentTE\bin\Debug\netstandard2.1\TradingEngineServer.Instrument.pdb
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\InstrumentTE\obj\Debug\netstandard2.1\InstrumentTE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\InstrumentTE\obj\Debug\netstandard2.1\InstrumentTE.AssemblyInfoInputs.cache
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\InstrumentTE\obj\Debug\netstandard2.1\InstrumentTE.AssemblyInfo.cs
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\InstrumentTE\obj\Debug\netstandard2.1\InstrumentTE.csproj.CoreCompileInputs.cache
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\InstrumentTE\obj\Debug\netstandard2.1\InstrumentTE.sourcelink.json
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\InstrumentTE\obj\Debug\netstandard2.1\TradingEngineServer.Instrument.dll
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\InstrumentTE\obj\Debug\netstandard2.1\TradingEngineServer.Instrument.pdb
