@@ -8,3 +8,4 @@ C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\o
 C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\LoggingTE.csproj.CoreCompileInputs.cache
 C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\TradingEngineServer.Logging.dll
 C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\TradingEngineServer.Logging.pdb
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\LoggingTE\obj\Debug\netstandard2.1\LoggingTE.sourcelink.json

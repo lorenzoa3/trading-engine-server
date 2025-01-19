@@ -15,7 +15,7 @@ namespace TradingEngineServer.Orders
         // PROPERTIES //
         public long OrderId => _orderCore.OrderId;
         public string Username => _orderCore.Username;
-        public string SecurityId => _orderCore.SecurityId;
+        public int SecurityId => _orderCore.SecurityId;
 
         // FIELDS //
         private readonly IOrderCore _orderCore;

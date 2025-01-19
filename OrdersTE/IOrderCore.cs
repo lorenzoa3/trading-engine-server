@@ -8,6 +8,6 @@ namespace TradingEngineServer.Orders
 
         public string Username { get; }
 
-        public string SecurityId { get; }
+        public int SecurityId { get; }
     }
 }

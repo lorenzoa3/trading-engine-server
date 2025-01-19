@@ -53,3 +53,4 @@ C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\Trading Eng
 C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\Trading Engine Server\bin\Debug\net8.0\System.Threading.Tasks.Dataflow.dll
 C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\Trading Engine Server\bin\Debug\net8.0\TradingEngineServer.Logging.dll
 C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\Trading Engine Server\bin\Debug\net8.0\TradingEngineServer.Logging.pdb
+C:\Users\chand\OneDrive\Desktop\Work Related\Projects\Trading Engine\Trading Engine Server\obj\Debug\net8.0\Trading Engine Server.sourcelink.json

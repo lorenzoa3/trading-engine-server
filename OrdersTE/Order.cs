@@ -20,14 +20,18 @@ namespace TradingEngineServer.Orders
 
         }
 
-        // PROPERTIES//
+        public Order(ModifyOrder modifyOrder) :
+            this(modifyOrder, modifyOrder.Price, modifyOrder.Quantity, modifyOrder.IsBuySide)
+        {}
+
+        // PROPERTIES //
         public long Price { get; private set; }
         public uint InitialQuantity { get; private set; }
         public uint CurrentQuantity { get; private set; }
         public bool IsBuySide { get; private set; }
         public long OrderId => _orderCore.OrderId;
         public string Username => _orderCore.Username;
-        public string SecurityId => _orderCore.SecurityId;
+        public int SecurityId => _orderCore.SecurityId;
 
         // METHODS //
 

@@ -5,11 +5,11 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trading Engine Server", "Trading Engine Server.csproj", "{050535C2-EE08-4775-9D3E-3B2AA685B40A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingTE", "..\LoggingTE\LoggingTE.csproj", "{8AB0B1E8-EDC5-494A-A09A-877B764DD0E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingTE", "..\LoggingTE\LoggingTE.csproj", "{8AB0B1E8-EDC5-494A-A09A-877B764DD0E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstrumentTE", "..\InstrumentTE\InstrumentTE.csproj", "{1A2F3925-2E06-44F9-9195-1E73D15D3EF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstrumentTE", "..\InstrumentTE\InstrumentTE.csproj", "{1A2F3925-2E06-44F9-9195-1E73D15D3EF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersTE", "..\OrdersTE\OrdersTE.csproj", "{2F837633-4C81-4719-AFC1-F3109C01E21D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrdersTE", "..\OrdersTE\OrdersTE.csproj", "{2F837633-4C81-4719-AFC1-F3109C01E21D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
