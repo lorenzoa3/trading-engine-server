@@ -60,8 +60,8 @@ namespace TradingEngineServer.Logging
         // Formats a log entry into a string
         private static string FormatLogItem(LogInformation logItem)
         {
-            return $"[{logItem.now:yyyy-MM-dd HH-mm-ss.fffffff}] [{logItem.threadName,-30}:{logItem.threadID:000}] " +
-                   $"[{logItem.logLevel}] {logItem.message}";
+            return $"[{logItem.now:yyyy-MM-dd HH-mm-ss.fffffff}] [{logItem.threadName}:{logItem.threadID:000}] " +
+                   $"[{logItem.logLevel}] {logItem.message}\n";
         }
 
         // Enqueues a log entry for processing
@@ -71,7 +71,7 @@ namespace TradingEngineServer.Logging
                 Thread.CurrentThread.ManagedThreadId, Thread.CurrentThread.Name));
         }
 
-        // Destructor to ensure cleanup
+        // Finalizer to ensure cleanup
         ~TextLogger()
         {
             Dispose(false);

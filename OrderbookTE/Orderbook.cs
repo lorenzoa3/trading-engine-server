@@ -35,10 +35,9 @@ namespace TradingEngineServer.Orderbook
         private static void AddOrder(Order order, Limit baseLimit, SortedSet<Limit> limitLevels,
             Dictionary<long, OrderbookEntry> internalOrderbook)
         {
-            OrderbookEntry orderbookEntry = new OrderbookEntry(order, baseLimit);
-
             if (limitLevels.TryGetValue(baseLimit, out Limit limit))
             {
+                OrderbookEntry orderbookEntry = new OrderbookEntry(order, limit);
                 // Add order to an existing price level
                 if (limit.Head == null)
                 {
@@ -55,6 +54,7 @@ namespace TradingEngineServer.Orderbook
             }
             else
             {
+                OrderbookEntry orderbookEntry = new OrderbookEntry(order, baseLimit);
                 // Create a new price level for the order
                 limitLevels.Add(baseLimit);
                 baseLimit.Head = orderbookEntry;

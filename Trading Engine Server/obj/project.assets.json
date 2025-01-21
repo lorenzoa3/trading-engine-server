@@ -706,6 +706,16 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "TradingEngineServer.Instrument/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TradingEngineServer.Instrument.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TradingEngineServer.Instrument.dll": {}
+        }
+      },
       "TradingEngineServer.Logging/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -718,6 +728,30 @@
         },
         "runtime": {
           "bin/placeholder/TradingEngineServer.Logging.dll": {}
+        }
+      },
+      "TradingEngineServer.Orderbook/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "TradingEngineServer.Instrument": "1.0.0",
+          "TradingEngineServer.Orders": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TradingEngineServer.Orderbook.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TradingEngineServer.Orderbook.dll": {}
+        }
+      },
+      "TradingEngineServer.Orders/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TradingEngineServer.Orders.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TradingEngineServer.Orders.dll": {}
         }
       }
     }
@@ -1788,17 +1822,35 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "TradingEngineServer.Instrument/1.0.0": {
+      "type": "project",
+      "path": "../InstrumentTE/InstrumentTE.csproj",
+      "msbuildProject": "../InstrumentTE/InstrumentTE.csproj"
+    },
     "TradingEngineServer.Logging/1.0.0": {
       "type": "project",
       "path": "../LoggingTE/LoggingTE.csproj",
       "msbuildProject": "../LoggingTE/LoggingTE.csproj"
+    },
+    "TradingEngineServer.Orderbook/1.0.0": {
+      "type": "project",
+      "path": "../OrderbookTE/OrderbookTE.csproj",
+      "msbuildProject": "../OrderbookTE/OrderbookTE.csproj"
+    },
+    "TradingEngineServer.Orders/1.0.0": {
+      "type": "project",
+      "path": "../OrdersTE/OrdersTE.csproj",
+      "msbuildProject": "../OrdersTE/OrdersTE.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Extensions.Hosting >= 9.0.1",
       "Microsoft.Extensions.Hosting.Abstractions >= 9.0.1",
-      "TradingEngineServer.Logging >= 1.0.0"
+      "TradingEngineServer.Instrument >= 1.0.0",
+      "TradingEngineServer.Logging >= 1.0.0",
+      "TradingEngineServer.Orderbook >= 1.0.0",
+      "TradingEngineServer.Orders >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1828,8 +1880,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\InstrumentTE\\InstrumentTE.csproj": {
+              "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\InstrumentTE\\InstrumentTE.csproj"
+            },
             "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\LoggingTE\\LoggingTE.csproj": {
               "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\LoggingTE\\LoggingTE.csproj"
+            },
+            "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrderbookTE\\OrderbookTE.csproj": {
+              "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrderbookTE\\OrderbookTE.csproj"
+            },
+            "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrdersTE\\OrdersTE.csproj": {
+              "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrdersTE\\OrdersTE.csproj"
             }
           }
         }

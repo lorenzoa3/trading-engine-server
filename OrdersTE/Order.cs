@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Threading;
 
 namespace TradingEngineServer.Orders
 {
     // Represents an order with additional properties and behaviors beyond the core
     public class Order : IOrderCore
     {
+        private static long _nextOrderId = 1; // Static counter shared across all orders
+
         // Constructor to initialize an order with core details and trade-specific properties
         public Order(IOrderCore orderCore, long price, uint quantity, bool isBuySide)
         {
@@ -50,6 +53,18 @@ namespace TradingEngineServer.Orders
                 throw new InvalidOperationException($"Quantity Delta > Current Quantity for OrderId={OrderId}");
 
             CurrentQuantity -= quantityDelta;
+        }
+        public static long GenerateUniqueOrderId()
+        {
+            return Interlocked.Increment(ref _nextOrderId); // Thread-safe increment
+        }
+
+        // Overrides ToString to provide a readable string representation of the order
+        public override string ToString()
+        {
+            return $"OrderId: {OrderId}, Username: {Username}, SecurityId: {SecurityId}, Price: {Price}, " +
+                   $"InitialQuantity: {InitialQuantity}, CurrentQuantity: {CurrentQuantity}, " +
+                   $"Side: {(IsBuySide ? "Buy" : "Sell")}";
         }
 
 

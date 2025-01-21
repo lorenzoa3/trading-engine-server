@@ -4,6 +4,66 @@
     "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\Trading Engine Server\\Trading Engine Server.csproj": {}
   },
   "projects": {
+    "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\InstrumentTE\\InstrumentTE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\InstrumentTE\\InstrumentTE.csproj",
+        "projectName": "TradingEngineServer.Instrument",
+        "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\InstrumentTE\\InstrumentTE.csproj",
+        "packagesPath": "C:\\Users\\chand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\InstrumentTE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\LoggingTE\\LoggingTE.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -74,6 +134,133 @@
         }
       }
     },
+    "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrderbookTE\\OrderbookTE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrderbookTE\\OrderbookTE.csproj",
+        "projectName": "TradingEngineServer.Orderbook",
+        "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrderbookTE\\OrderbookTE.csproj",
+        "packagesPath": "C:\\Users\\chand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrderbookTE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\InstrumentTE\\InstrumentTE.csproj": {
+                "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\InstrumentTE\\InstrumentTE.csproj"
+              },
+              "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrdersTE\\OrdersTE.csproj": {
+                "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrdersTE\\OrdersTE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrdersTE\\OrdersTE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrdersTE\\OrdersTE.csproj",
+        "projectName": "TradingEngineServer.Orders",
+        "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrdersTE\\OrdersTE.csproj",
+        "packagesPath": "C:\\Users\\chand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrdersTE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\Trading Engine Server\\Trading Engine Server.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -98,8 +285,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\InstrumentTE\\InstrumentTE.csproj": {
+                "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\InstrumentTE\\InstrumentTE.csproj"
+              },
               "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\LoggingTE\\LoggingTE.csproj": {
                 "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\LoggingTE\\LoggingTE.csproj"
+              },
+              "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrderbookTE\\OrderbookTE.csproj": {
+                "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrderbookTE\\OrderbookTE.csproj"
+              },
+              "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrdersTE\\OrdersTE.csproj": {
+                "projectPath": "C:\\Users\\chand\\OneDrive\\Desktop\\Work Related\\Projects\\Trading Engine\\OrdersTE\\OrdersTE.csproj"
               }
             }
           }

@@ -27,7 +27,10 @@
 
   <ItemGroup>
     <!-- Reference to another project in the solution for logging functionality -->
+    <ProjectReference Include="..\InstrumentTE\InstrumentTE.csproj" />
     <ProjectReference Include="..\LoggingTE\LoggingTE.csproj" />
+    <ProjectReference Include="..\OrderbookTE\OrderbookTE.csproj" />
+    <ProjectReference Include="..\OrdersTE\OrdersTE.csproj" />
   </ItemGroup>
 
   <ItemGroup>

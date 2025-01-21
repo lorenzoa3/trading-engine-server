@@ -1,0 +1,5 @@
+[2025-01-20 18-42-55.3501971] [TradingEngineMainThread:001] [Info] Starting Trading Engine
+[2025-01-20 18-43-08.7935631] [TradingEngineMainThread:001] [Info] Order added to Security 1: System.Func`1[System.String]
+[2025-01-20 18-43-19.4384757] [TradingEngineMainThread:001] [Info] Order added to Security 1: System.Func`1[System.String]
+[2025-01-20 18-43-21.6553966] [TradingEngineMainThread:001] [Info] Matching completed for Security 1
+[2025-01-20 18-43-38.4935958] [TradingEngineMainThread:001] [Info] Order added to Security 1: System.Func`1[System.String]
