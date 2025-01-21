@@ -1,9 +1,0 @@
-[2025-01-20 18-44-31.5556869] [TradingEngineMainThread:001] [Info] Starting Trading Engine
-[2025-01-20 18-44-43.5404714] [TradingEngineMainThread:001] [Info] Order added to Security 1: System.Func`1[System.String]
-[2025-01-20 18-44-57.0274417] [TradingEngineMainThread:001] [Info] Order added to Security 1: System.Func`1[System.String]
-[2025-01-20 18-45-08.7102964] [TradingEngineMainThread:001] [Info] Matching completed for Security 1
-[2025-01-20 18-45-42.7174432] [TradingEngineMainThread:001] [Info] Order 2 canceled for Security 1 by User1
-[2025-01-20 18-45-59.3248515] [TradingEngineMainThread:001] [Info] Order added to Security 1: System.Func`1[System.String]
-[2025-01-20 18-46-01.4993966] [TradingEngineMainThread:001] [Info] Matching completed for Security 1
-[2025-01-20 18-46-25.2467543] [TradingEngineMainThread:001] [Info] Order added to Security 1: System.Func`1[System.String]
-[2025-01-20 18-46-26.8205959] [TradingEngineMainThread:001] [Info] Matching completed for Security 1
